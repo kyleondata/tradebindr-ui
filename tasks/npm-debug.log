@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'require-dir' ]
+2 info using npm@3.3.9
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData require-dir
+8 silly fetchNamedPackageData require-dir
+9 silly mapToRegistry name require-dir
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://registry.ui.encore.rackspace.com:4873/
+12 silly mapToRegistry uri http://registry.ui.encore.rackspace.com:4873/require-dir
+13 verbose request uri http://registry.ui.encore.rackspace.com:4873/require-dir
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 4:17:24 PM
+16 verbose request id b136bcd2c58bdd82
+17 verbose etag "22ab0874c4d90fc456f5b524c445fdd5"
+18 http request GET http://registry.ui.encore.rackspace.com:4873/require-dir
+19 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+20 info attempt registry request try #2 at 4:18:49 PM
+21 verbose etag "22ab0874c4d90fc456f5b524c445fdd5"
+22 http request GET http://registry.ui.encore.rackspace.com:4873/require-dir
+23 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+24 info attempt registry request try #3 at 4:21:05 PM
+25 verbose etag "22ab0874c4d90fc456f5b524c445fdd5"
+26 http request GET http://registry.ui.encore.rackspace.com:4873/require-dir
+27 silly get cb [ 304, undefined ]
+28 verbose etag http://registry.ui.encore.rackspace.com:4873/require-dir from cache
+29 verbose get saving require-dir to /Users/kyle8951/.npm/registry.ui.encore.rackspace.com_4873/require-dir/.cache.json
+30 silly install normalizeTree
+31 silly loadCurrentTree Finishing
+32 silly loadIdealTree Starting
+33 silly install loadIdealTree
+34 silly cloneCurrentTree Starting
+35 silly install cloneCurrentTreeToIdealTree
+36 silly cloneCurrentTree Finishing
+37 silly loadShrinkwrap Starting
+38 silly install loadShrinkwrap
+39 silly loadShrinkwrap Finishing
+40 silly loadAllDepsIntoIdealTree Starting
+41 silly install loadAllDepsIntoIdealTree
+42 silly resolveWithNewModule require-dir@0.3.0 checking installable status
+43 silly cache add args [ 'require-dir', null ]
+44 verbose cache add spec require-dir
+45 silly cache add parsed spec Result {
+45 silly cache add   raw: 'require-dir',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'require-dir',
+45 silly cache add   rawSpec: '',
+45 silly cache add   spec: '*',
+45 silly cache add   type: 'range' }
+46 silly addNamed require-dir@*
+47 verbose addNamed "*" is a valid semver range for require-dir
+48 silly addNameRange { name: 'require-dir', range: '*', hasData: false }
+49 silly mapToRegistry name require-dir
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry http://registry.ui.encore.rackspace.com:4873/
+52 silly mapToRegistry uri http://registry.ui.encore.rackspace.com:4873/require-dir
+53 verbose addNameRange registry:http://registry.ui.encore.rackspace.com:4873/require-dir not in flight; fetching
+54 verbose get http://registry.ui.encore.rackspace.com:4873/require-dir not expired, no request
+55 silly addNameRange number 2 { name: 'require-dir', range: '*', hasData: true }
+56 silly addNameRange versions [ 'require-dir', [ '0.1.0', '0.2.0', '0.3.0' ] ]
+57 silly addNamed require-dir@0.3.0
+58 verbose addNamed "0.3.0" is a plain semver version for require-dir
+59 silly mapToRegistry name require-dir
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry http://registry.ui.encore.rackspace.com:4873/
+62 silly mapToRegistry uri http://registry.ui.encore.rackspace.com:4873/require-dir
+63 verbose addRemoteTarball http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz not in flight; adding
+64 verbose addRemoteTarball [ 'http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz',
+64 verbose addRemoteTarball   '89f074a85638b07c20a4fb94c93b5db635a64781' ]
+65 info retry fetch attempt 1 at 4:22:20 PM
+66 info attempt registry request try #1 at 4:22:20 PM
+67 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+68 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+69 info attempt registry request try #2 at 4:23:46 PM
+70 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+71 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+72 info attempt registry request try #3 at 4:26:01 PM
+73 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+74 error fetch failed http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+75 warn retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+76 info retry fetch attempt 2 at 4:27:26 PM
+77 info attempt registry request try #1 at 4:27:26 PM
+78 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+79 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+80 info attempt registry request try #2 at 4:28:51 PM
+81 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+82 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+83 info attempt registry request try #3 at 4:31:07 PM
+84 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+85 error fetch failed http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+86 warn retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+87 info retry fetch attempt 3 at 4:33:22 PM
+88 info attempt registry request try #1 at 4:33:22 PM
+89 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+90 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+91 info attempt registry request try #2 at 4:34:47 PM
+92 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+93 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.23.82.112:4873
+94 info attempt registry request try #3 at 4:37:02 PM
+95 http fetch GET http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+96 error fetch failed http://registry.ui.encore.rackspace.com:4873/require-dir/-/require-dir-0.3.0.tgz
+97 silly rollbackFailedOptional Starting
+98 silly rollbackFailedOptional Finishing
+99 silly runTopLevelLifecycles Starting
+100 silly runTopLevelLifecycles Finishing
+101 silly install printInstalled
+102 verbose stack Error: connect ETIMEDOUT 10.23.82.112:4873
+102 verbose stack     at Object.exports._errnoException (util.js:860:11)
+102 verbose stack     at exports._exceptionWithHostPort (util.js:883:20)
+102 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+103 verbose cwd /Users/kyle8951/code/tradebindr-ui/tasks
+104 error Darwin 14.5.0
+105 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "require-dir"
+106 error node v5.0.0
+107 error npm  v3.3.9
+108 error code ETIMEDOUT
+109 error errno ETIMEDOUT
+110 error syscall connect
+111 error network connect ETIMEDOUT 10.23.82.112:4873
+111 error network This is most likely not a problem with npm itself
+111 error network and is related to network connectivity.
+111 error network In most cases you are behind a proxy or have bad network settings.
+111 error network
+111 error network If you are behind a proxy, please make sure that the
+111 error network 'proxy' config is set properly.  See: 'npm help config'
+112 verbose exit [ 1, true ]

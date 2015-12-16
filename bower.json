@@ -1,0 +1,24 @@
+{
+  "name": "tradebindr-ui",
+  "description": "UI layer for tradebindr.com",
+  "main": "app.js",
+  "authors": [
+    "Kyle Jennings"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kyleondata/tradebindr-ui",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0",
+    "backbone.marionette": "marionette#~2.4.4",
+    "backbone": "~1.2.3",
+    "jquery": "~2.1.4"
+  }
+}

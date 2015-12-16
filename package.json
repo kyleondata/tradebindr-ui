@@ -1,0 +1,23 @@
+{
+  "name": "tradebindr-ui",
+  "version": "1.0.0",
+  "description": "UI layer for tradebindr.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleondata/tradebindr-ui.git"
+  },
+  "author": "Kyle Jennings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyleondata/tradebindr-ui/issues"
+  },
+  "homepage": "https://github.com/kyleondata/tradebindr-ui#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0"
+  }
+}
